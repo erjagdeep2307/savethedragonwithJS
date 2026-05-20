@@ -1,0 +1,22 @@
+ <!-- Here i m going to use the alert, confirm and prompt which the common dialog construct used in JS -->
+<html>
+    <body>
+        <script>
+            /* In javascript type conversion can be automatically done by various functions 
+                like prompt convert the input into string automatically and the most of Math functions convert the data into number type.
+            */
+            // Used to Convey a message with a modal pops up on screen with an ok button
+            alert(`This is a test alert`);
+            /* Used to get some input from user with an informative title , with cancel and ok button
+                on cancel return null or the default value provided.
+            */
+           let userId = prompt(`What is your id:`,"100482");
+           console.log(`User have Entered his id:${userId}`);
+           /*  Used to confirm some thing from user , it have two buttons cancel or Ok
+               on press of OK it returns TRUE and on Cancel it returns FALSE
+           */
+          const isOkay = confirm("Are you Okay?");
+          console.log(`${isOkay} . User say he is :${isOkay?"Okay":"not Okay"}`);
+        </script>
+    </body>
+</html>
