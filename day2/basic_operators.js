@@ -39,8 +39,8 @@ console.log(`Bit wise OR`,a|b); //000000000000001111  15
 
 /* Below is Imaging Excercise for Operators
 
-"" + 1 + 0
-"" - 1 + 0
+"" + 1 + 0 //10
+"" - 1 + 0 // -1
 true + false
 6 / "3"
 "2" * "3"
