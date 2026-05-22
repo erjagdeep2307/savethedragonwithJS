@@ -13,4 +13,4 @@ let height=0;
 console.log(`Height value is :`,height || 'not defined'); // not defined because height is false value
 console.log(`Height value using ??`,height ?? 'not defined');//0
 /* Because precedence of ?? is lower than other operators , so it is best to use paranathesis with expression */
-console.log(`Using with other operatores:`,(height < 6)??"not satisfied") 
+console.log(`Using with other operatores:`,(height < 6)??"not satisfied")

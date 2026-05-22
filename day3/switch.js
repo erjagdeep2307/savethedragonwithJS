@@ -20,4 +20,4 @@ switch(input){
         break;
     default:
         console.log(`Invalid Operation`);
-} 
+}
