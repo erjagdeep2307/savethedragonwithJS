@@ -29,4 +29,4 @@
    for(let i=2;i<10;i++)
    {
        isPrime(i) ? console.log(i):"";
-   }
+   } 

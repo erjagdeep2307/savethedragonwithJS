@@ -12,5 +12,3 @@ undefined||console.log("this is okay")// console the log
 console.log(undefined || 2 && 3 || 4); // 3
 let sum = 34;
 sum > 35 && console.log(`Sum is less than 35`); 
-
-

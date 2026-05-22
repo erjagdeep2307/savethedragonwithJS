@@ -16,4 +16,3 @@ console.log(`undefined with 0`,undefined==0); //false
 console.log(`undefined greater 0`,undefined > 0); // false
 console.log(`undefined lesser 0`,undefined < 0); // false
 console.log(`undefined greater or equal 0`,undefined >= 0); // beacuse NaN 
-
