@@ -34,4 +34,4 @@ console.log(`An Empty String:`,Boolean(""));// false
 console.log(`Zero :`,Boolean(0)); // false
 console.log(`undefined :`,Boolean(undefined)); // false
 console.log(`NaN :`,Boolean(NaN)); // false
-console.log(`Spaces String(is not empty):`,Boolean("  ")); // True
+console.log(`Spaces String(is not empty):`,Boolean("  ")); // True 

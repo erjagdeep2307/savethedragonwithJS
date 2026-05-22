@@ -10,7 +10,6 @@ console.log(`null greater 0`,null > 0);//false
 console.log(`null lesser 0`,null < 0); //false
 console.log(`null greater or equal`,null >= 0); //true
 console.log(`null less or equal`,null <= 0); //true
-
 /* Undefined with comparision  */
 console.log(`undefined with 0`,undefined==0); //false
 console.log(`undefined greater 0`,undefined > 0); // false

@@ -45,4 +45,4 @@ const obj = {
 const objCopy = obj;
 console.log(`Before Change Object:${Object.entries(obj)}`);
 objCopy.id = 23468324;
-console.log(`After changes in Object Copy: ${Object.entries(obj)}`);// It will going to print the changed Id
+console.log(`After changes in Object Copy: ${Object.entries(obj)}`);// It will going to print the changed Id 
