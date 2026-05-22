@@ -37,4 +37,4 @@ console.log(`Copy of S2 after change : ${s2Copy}`);
     const time = Date().now;
 */
 const timeNow = Date.now(); //now() is a static method of Date class to get the epoch
-console.log(timeNow); 
+console.log(timeNow);

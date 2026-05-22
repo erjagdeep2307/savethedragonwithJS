@@ -31,4 +31,3 @@ if(Object.is(NaN,NaN)) // True
 else{
     console.log(`They are not Same`)
 }
-
