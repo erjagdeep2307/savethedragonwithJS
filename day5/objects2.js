@@ -70,4 +70,6 @@ console.log(`Orbit Bus After clone change: ${JSON.stringify(orbitBus)}`);
     Orbit Bus After clone change: {"id":123,"color":"off white","model":{"built":"TATA","year":2003}}
  */
 
-    //StructuredClone() can handle all the primitives and object , array and circular references very well
+/*StructuredClone() can handle all the primitives and object , array and circular references very well
+    Object.assign() is shallow Copy but structuredClone() is deep copy or deep cloning
+*/
